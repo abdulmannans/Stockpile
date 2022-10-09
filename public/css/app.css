@@ -129,6 +129,7 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+  list-style-type: none;
 }
 
 dt {
@@ -583,6 +584,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 10px;
 }
 
 @media (min-width: 576px) {
@@ -10911,6 +10913,7 @@ a.text-dark:focus {
     page-break-after: avoid;
   }
 
+
 @page {
     size: a3;
 }
@@ -10921,6 +10924,7 @@ a.text-dark:focus {
 
   .container {
     min-width: 992px !important;
+    
   }
 
   .navbar {

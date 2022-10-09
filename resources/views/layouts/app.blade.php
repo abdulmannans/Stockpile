@@ -17,7 +17,10 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    @yield('css')
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    
 </head>
 <body>
     <div id="app">
@@ -74,7 +77,8 @@
 
         <main class="py-4">
             @yield('content')
-        </main>
+        </main> 
     </div>
+    @yield('extra-content')
 </body>
 </html>

@@ -1,5 +1,11 @@
 @extends('layouts.app')
 
+@section ('css')
+
+@endsection
+
+
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -14,7 +20,18 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <ul>
+                        <li>
+                             <a href="{{ route('new-stock') }}"> 
+                                Add New Stock
+                            </a>
+                        </li>
+                        <li>
+                             <a href="{{ route('view-all-stock') }}">
+                                 View All Stock
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
